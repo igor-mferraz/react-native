@@ -1,10 +1,10 @@
 import { Stack } from "expo-router";
 
-export default function RootLayout(){
+export default function HomeLayout(){
     return(
         <Stack screenOptions={{headerShown:false}}>
-            <Stack.Screen name="(tabs)"/>
-            <Stack.Screen name="tela2"/>
+            <Stack.Screen name="tela3"/>
+            <Stack.Screen name="tela4"/>
         </Stack>
     )
 }

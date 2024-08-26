@@ -5,7 +5,7 @@ export default function TabLayout(){
     return(
         <Tabs screenOptions={{headerShown: false, tabBarActiveTintColor: 'green'}}>
             <Tabs.Screen
-                name="index"
+                name="(home)"
                 options={{
                     title:'Home',
                     tabBarIcon: ({ color }) => <FontAwesome size={28} name='home' color={color}/>
@@ -18,6 +18,7 @@ export default function TabLayout(){
                     tabBarIcon: ({ color }) => <FontAwesome size={28} name='user' color={color}/>
                 }}
             />
+
         </Tabs>
     )
 }
